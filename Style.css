@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap');
+@import "components/banner.css";
+@import "components/card.css";
+@import "components/footer.css";
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
