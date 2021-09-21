@@ -1,0 +1,43 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../images/Parc.jpeg");
+  background-size: cover;
+  background-position-y: center;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.banner h1 {
+  height: bold;
+  margin: 0;
+  font-size: 200px;
+}
+
+.banner h2 {
+  height: auto;
+  color: whitesmoke;
+font-weight: 800;
+}
+
+.banner h1, .banner h2 {
+  text-shadow: 1px 1px 5px black;
+}
+
+.button-red:hover {
+  color: black;
+}
+
+.button-red {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: tomato;
+  padding: 10px;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 5px;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
