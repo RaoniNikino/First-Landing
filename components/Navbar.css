@@ -1,0 +1,15 @@
+.homepage-navbar{
+  display: flex;
+  height: 70px;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+}
+
+.cats-btn, .hobbies-btn {
+    opacity: 0.5;
+}
+
+.active {
+    opacity: 1;
+}

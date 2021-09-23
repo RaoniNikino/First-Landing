@@ -1,8 +1,8 @@
-.card {
+.cat-card {
   width: 300px;
   box-shadow: 3px 3px 10px black;
   border-radius: 20px;
-  margin-top: 50px;
+  margin-top: 10px;
   overflow: hidden;
 }
 
@@ -19,15 +19,28 @@
 
 .card-infos {
   padding: 10px;
+  height: 100%;
 }
 
-.cards {
+.cat-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
 }
 
-.card:hover .card-infos {
+.cat-card:hover .card-infos {
   background-color: grey;
   color: white;
+}
+
+.button-cat {
+  margin: 30px auto;
+  width: 250px;
+  color: whitesmoke;
+  background-color: tomato;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 5px;
+  font-size: 20px;
 }

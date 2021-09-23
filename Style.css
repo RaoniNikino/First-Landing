@@ -2,6 +2,9 @@
 @import "components/banner.css";
 @import "components/card.css";
 @import "components/footer.css";
+@import "components/Navbar.css";
+@import "components/Cats.css";
+@import "components/hobbies.css";
 
 a {
   text-decoration: none;
@@ -13,4 +16,8 @@ body {
 
 h1, h2, h3, h4 {
   font-family: 'Poppins', sans-serif;
+}
+
+.hidden {
+  display: none;
 }

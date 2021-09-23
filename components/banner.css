@@ -2,7 +2,7 @@
   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../images/Parc.jpeg");
   background-size: cover;
   background-position-y: center;
-  height: 70vh;
+  height: 65vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -14,13 +14,13 @@
 .banner h1 {
   height: bold;
   margin: 0;
-  font-size: 200px;
+  font-size: 150px;
 }
 
 .banner h2 {
   height: auto;
   color: whitesmoke;
-font-weight: 800;
+  font-weight: 800;
 }
 
 .banner h1, .banner h2 {
@@ -36,8 +36,18 @@ font-weight: 800;
   color: whitesmoke;
   background-color: tomato;
   padding: 10px;
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 5px 5px 5px black;
   border-radius: 5px;
   font-size: 30px;
-  margin-bottom: 100px;
+  margin-top: 20px;
+}
+
+.clock {
+  position: absolute;
+  right: 10px;
+  color: tomato;
+  font-size: 20px;
+  font-style: bold;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
 }

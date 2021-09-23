@@ -1,30 +1,66 @@
 <head>
   <title>My first Raoni html</title>
   <link rel="stylesheet" href="Style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <head>
 <body>
+  <div class="homepage-navbar">
+    <div class="cats-btn">CATS</div>
+    <div class="hobbies-btn">HOBBIES</div>
+    <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+  </div>
   <div class="banner">
-    <h1>WELCOME!!</h1>
+    <h1 class="animate__animated animate__bounce">WELCOME!!</h1>
     <h2>This is the first html page made by Me</h2>
     <a href="#" class="button-red">Discover more</a>
   </div>
-  <div class="container">
-    <div class="cards">
-        <div class="card">
+  <div class="catinfo hidden">
+    <div class="catdetail">
+    <img src="images/mowgli.jpeg" alt="pretty black cat" class="mowgli-picture">
+      <div class="cattext">
+      <h2>Mowgli</h2>
+      <p>Voici Mowgli, un joli chat de 5 ans qui est calin et tres doux.
+      </p>
+    </div>
+    </div>
+    <div class="catdetail">
+    <img src="images/sila.jpeg" alt="Pretty Brown cat" class="sila-picture">
+      <div class="cattext">
+      <h2>Sila</h2>
+      <p>Voici Sila, une jolie petite chatte de 1 ans qui est un peu sauvage mais tres douce.
+      </p>
+      </div>
+    </div>
+  </div>
+  <div class="hobbies hidden">
+    <img src="images/Photoshop.jpeg" alt="Head with birds" class="hobbies-picture">
+      <p class="hobbies-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam minima atque placeat sapiente expedita recusandae repellendus tenetur distinctio doloribus consectetur ab beatae quo delectus officia, temporibus qui rem enim quam. Ex error distinctio possimus porro? Facere deserunt labore impedit similique cupiditate repellat, tempora iusto dolores saepe dignissimos, ad vero eum? Magni assumenda voluptatibus laborum provident omnis repudiandae illo ipsam quo itaque non hic consequuntur harum reprehenderit ratione in voluptatum, excepturi optio aspernatur esse suscipit blanditiis quis alias. Officiis ullam cum quaerat! Explicabo illo iste labore quod esse, sequi optio aspernatur fugiat unde adipisci ab illum dolores laborum necessitatibus hic! Perferendis?
+      </p>
+  </div>
+  <p class="display-btn button-cat">See Cats & Hobbies :)</p>
+  <div class="container hidden" id="hidden-content">
+    <div class="cat-cards">
+        <div class="cat-card">
           <img src="images/Mowgli.jpeg" alt="" class="card-picture">
           <div class="card-infos">
             <h2>Mowgli the Awesome</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas provident libero cum beatae maxime mollitia.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="cat-card">
           <img src="images/Sila.jpeg" alt="" class="card-picture">
           <div class="card-infos">
             <h2>Sila the Beauty</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas provident libero cum beatae maxime mollitia.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="cat-card">
           <img src="images/Photoshop.jpeg" alt="" class="card-picture">
           <div class="card-infos">
             <h2>Photoshop Passion</h2>
@@ -32,8 +68,11 @@
           </div>
         </div>
     </div>
-    <div class="footer">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit error illo, magni non enim eius tempore? Eligendi omnis adipisci odio maxime ullam minus nostrum ducimus officiis facere ab, sint eum ipsam dicta temporibus fugiat ipsum aliquam error in dolores cumque voluptatem veritatis. Nesciunt unde temporibus ex odio aliquam atque.</p>
-    </div>
   </div>
-<body>
+  <div class="footer">
+    <p>Merci de votre visite!! ^^
+    </p>
+  </div>
+  <script type="module" src="index.js"></script>
+</body>
+</html>
